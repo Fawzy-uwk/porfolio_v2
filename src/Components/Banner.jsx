@@ -13,7 +13,7 @@ function Banner() {
   const period = 2000;
 
   useEffect(() => {
-    let ticker = setInterval(() => {
+    let ticker = setInterval(()=> {
       tick();
     }, delta);
     return () => {
